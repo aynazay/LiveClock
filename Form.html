@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Form in HTML</h1>
+        <form action="">
+            <fieldset id="fieldset1">
+            <legend>Personal Information:</legend>
+            <label for="name">First Name:</label>
+            <input type="Text" id"name" placeholder="*John"name"name" required><br>
+            <label for="lName">Last Name:</label>
+            <input type="Text" id"lName" placeholder="Snow" name"lName"><br>
+            <label for="DOB">Date Of Birth:</label>
+            <input type="Date" id"dob"><br>
+            <p>Please select your gender:</p>
+            <input type="radio" name="Gender" id="M" value="Male">
+            <label for="M">Male</label>
+            <input type="radio" name="Gender" id="F" value="Female">
+            <label for="F">Female</label>
+            <input type="radio" name="Gender" id="Not" value="Other">
+            <label for="Not">Other</label>
+            <p> Select All Education Degree:</p>
+            <input type="checkbox" id="high" value="High School Degree" name="degree">
+            <label for="high">High School</label><br>
+            <input type="checkbox" id="maste" value="Master Degree" name="degree">
+            <label for="masterh">Master Degree</label><br>
+            <input type="checkbox" id="phd" value="Phd Degree" name="degree">
+            <label for="phd">Phd Degree</label><br>
+            <input type="checkbox" id="mba" value="MBA Degree" name="degree">
+            <label for="mba">MBA Degree</label><br>
+            <p>Please Provides Documents:</p>
+            <input type="File">
+
+        </fieldset>
+            <fieldset id="fieldset2">
+            <legend>Create Account:</legend>
+            <label for="email">User Name:</label>
+            <input type="email" id="email" placeholder="johnsnow@gmail.com"><br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass"><br>
+            <label for="pass2">Cofirm Password:</label>
+            <input type="password" id="pass2">
+            
+        </fieldset>
+            <fieldset id="fieldset3">
+            <legend>Address Information:</legend>
+            <label for="add1">Address Line 1:</label>
+            <input type="text" id="add1"><br>
+            <label for="city">City/Town:</label>
+            <input type="text" id="city"><br>
+            <p>Country:</p>
+            <select name="" id="">
+                <option value="">USA</option>
+                <option value="">UK</option>
+                <option value="">Canada</option>
+                <option value="">Turkiye</option>
+            </select><br><br>
+            <textarea name="" id="" cols="80" rows="10">Provide Additional Information:</textarea>
+            </fieldset>
+            <input type="submit">
+            <input type="reset" name="" id="">
+        </form>
+    </div>
+</body>
+</html>
